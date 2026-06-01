@@ -65,30 +65,34 @@
 
 // arrmul = 5
 
-// const printhello = () => console.log("hello");
+ const printhello = () => console.log("hello");
 
-// function countvowels(str) {
-//   let count = 0;
 
-//   // aditi, count = 0
-//   for (const char of str) {
-//     if (
-//       char === "a" ||
-//       char === "e" ||
-//       char === "i" ||
-//       char === "o" ||
-//       char === "u" ||
-//       char === 'A' ||
-//       char === 'E' ||
-//       char === 'I' ||
-//       char === 'o' ||
-//       char === 'U'
-//     ) {
-//       count++;
-//     }
-//   }
-//   return count
-// }
+ function countvowels(str) {
+   let count = 0;
+
+   // aditi, count = 0
+   for (const char of str) {
+     if (
+       char === "a" ||
+       char === "e" ||
+       char === "i" ||
+       char === "o" ||
+       char === "u" ||
+       char === 'A' ||
+       char === 'E' ||
+       char === 'I' ||
+       char === 'o' ||
+       char === 'U'
+     ) {
+       count++;
+     }
+   }
+   return count
+ }
+
+//countvowels("aditi")
+
 
 
 // const countvov = (str) => {
@@ -186,10 +190,10 @@ let arr2 = [4,5,6]
 
 let merge = [arr1, arr2]
 
-// console.log(merge)
+ console.log(merge)
 
 
-// spread opration with array use to split values seperately
+// spread operation with array use to split values seperately
 
 // console.log("spread", ...arr1)
 
@@ -211,5 +215,6 @@ console.log(person)
 person={...person, age : 23}
 console.log(person)
 
-person = {...person, city : 'pune'}
+person = {...person, city : 'pandharpur'}
+person = {...person, phone_number : 9876543210}
 console.log(person)

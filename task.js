@@ -31,3 +31,8 @@ let ridetype  = person.prinuser ?
                 'free ride': 'promo code not match' : 'no free ride';
 
 console.log(ridetype)
+
+
+
+
+
