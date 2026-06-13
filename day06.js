@@ -281,3 +281,156 @@ ex
 8 X 2 = 16
 16 X 2 = 32
 */
+
+
+
+
+console.log("hello!!!!!!!")
+
+
+let num = 4215;
+let  count = 0;
+while(num > 0){
+    count++;   
+    // num /= 10;
+    //  328
+
+    num = Math.floor(num / 10)
+    //  output 4
+}
+console.log(count);
+
+/* 
+
+
+            How a while Loop Works
+
+            Syntax:
+
+            while(condition){
+                // code
+            }
+
+            The flow is:
+
+            Check the condition.
+            If true, execute the loop body.
+            Go back and check the condition again.
+            Repeat until the condition becomes false.
+            Initial Values
+            num = 4215
+            count = 0
+
+            Condition:
+
+            num > 0
+
+            Is 4215 > 0?
+
+            ✅ Yes
+
+            Enter the loop.
+
+            Iteration 1
+
+            Before:
+
+            num = 4215
+            count = 0
+            Line 1
+            count++;
+            count = 1
+            Line 2
+            num = Math.floor(num / 10);
+            4215 / 10 = 421.5
+            Math.floor(421.5) = 421
+
+            Now:
+
+            num = 421
+            count = 1
+
+            Go back to condition.
+
+            421 > 0
+
+            ✅ True
+
+            Iteration 2
+
+            Before:
+
+            num = 421
+            count = 1
+            count++
+            count = 2
+            num = Math.floor(421 / 10)
+            421 / 10 = 42.1
+            Math.floor(42.1) = 42
+
+            Now:
+
+            num = 42
+            count = 2
+
+            Check condition:
+
+            42 > 0
+
+            ✅ True
+
+            Iteration 3
+
+            Before:
+
+            num = 42
+            count = 2
+            count++
+            count = 3
+            num = Math.floor(42 / 10)
+            42 / 10 = 4.2
+            Math.floor(4.2) = 4
+
+            Now:
+
+            num = 4
+            count = 3
+
+            Check condition:
+
+            4 > 0
+
+            ✅ True
+
+            Iteration 4
+
+            Before:
+
+            num = 4
+            count = 3
+            count++
+            count = 4
+            num = Math.floor(4 / 10)
+            4 / 10 = 0.4
+            Math.floor(0.4) = 0
+
+            Now:
+
+            num = 0
+            count = 4
+
+            Check condition:
+
+            0 > 0
+
+            ❌ False
+
+            Loop stops.
+
+            Final Output
+            console.log(count);
+
+            Output:
+
+            4
+*/
